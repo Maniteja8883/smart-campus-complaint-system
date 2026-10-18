@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0066cc;
+  padding: 15px 30px;
+  color: #ffffff;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.nav-user {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.btn-logout {
+  background-color: #ffffff;
+  color: #0066cc;
+  border: 1px solid #ffffff;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.form-box {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0066cc;
+}
+
+.form-box form div {
+  margin-bottom: 15px;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-box p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-box a {
+  color: #0066cc;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #0052a3;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.status-pending {
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.status-progress {
+  background-color: #3399ff;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.status-resolved {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+}
